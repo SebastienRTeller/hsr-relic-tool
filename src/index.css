@@ -1,0 +1,137 @@
+:root {
+  font-family: Inter, system-ui, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: left;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.card {
+  border: 1px solid #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #1a1a1a1a;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+.card .card-image {
+  max-width: 120px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.card .card-title {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: #f9f9f9;
+}
+.card .card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f9f9f9;
+}
+input[type="radio"] {
+  display: none;
+}
+
+.radio_relicSlotBtn {
+  display: none !important;
+}
+
+.label_relicSlotBtn {
+  opacity: 0.55;
+}
+.label_relicSlotBtn:hover {
+  opacity: 0.88;
+}
+.radio_relicSlotBtn:checked + label {
+  opacity: 1;
+  box-shadow: 5px 5px 5px #1a1a1a1a;
+}
+
+.form-control {
+  border: none;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.column1 {
+  text-align: left;
+  flex: 1;
+}
+.column2 {
+  text-align: right;
+  flex: 1;
+}
+saveRelic {
+  font-size: 5rem;
+}
+equippedByContainer {
+  flex: 1;
+}
